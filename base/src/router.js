@@ -28,6 +28,27 @@ const routes = [
     meta: {
       title: '商品详情'
     }
+  },
+  {
+    name: 'button',
+    component: () => import('./view/button'),
+    meta: {
+      title: '各种按钮'
+    }
+  },
+  {
+    name: 'cell',
+    component: () => import('./view/cell'),
+    meta: {
+      title: '单元格'
+    }
+  },
+  {
+    name: 'layout',
+    component: () => import('./view/layout'),
+    meta: {
+      title: '布局'
+    }
   }
 ];
 
